@@ -40,11 +40,3 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = "random"
 end
-
-group :development, :test do
-  gem 'rspec-rails', '~> 2.0'
-end
-
-group :test do
-  gem 'capybara', '~> 2.1.0'
-end
